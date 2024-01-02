@@ -109,7 +109,7 @@ PRODUCT_COPY_FILES += \
 # Media config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml \
-    $(LOCAL_PATH)/config/media_codecs_aosp.xml:system/etc/media_codecs.xml
+    $(LOCAL_PATH)/config/media_codecs_aosp.xml:system/etc/media_codecs_aosp.xml
 
 # SELinux execmod workaround
 PRODUCT_COPY_FILES += \
